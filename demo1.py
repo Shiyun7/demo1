@@ -16,10 +16,16 @@ print(8>9)
 # print(type(()))
 
 #练习通过代码获取两段内容，并且计算他们的长度之和
-a = input("请输入：")
-b = input("请输入：")
-print("两个字符串的综合为：",len(a+b))
+# a = input("请输入：")
+# b = input("请输入：")
+# print("两个字符串的综合为：",len(a+b))
 
-
+#元组
+#a = ()  #空的元组
+a = (1,2,3,"jj","jj","True")
+print(a)
+#元组的下标
+#print(a[2])
+print(a.index("jj"))   #打印出第一个jj的下标
 
 
