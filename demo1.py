@@ -55,14 +55,58 @@ print(8>9)
 # b = a.pop(4)
 # print(b)
 
-a = ["sdf"]
-xx = ["hello","not fine"]
+# a = ["sdf"]
+# xx = ["hello","not fine",False]
 # a.extend(xx)  #将xx里面的内容放到a数组里
 # print(a)
-print(a+xx)  #这种方法也能实现extend的作用
+# print(a+xx)  #这种方法也能实现extend的作用
 
-print(a)
-a.remove("sdf")
-print(a)
+ #print(a)
+# a.remove("sdf")
+# print(a)
+# b = xx.remove(0)  #将False识别成0
+# print(b)
+# print(xx)
 
+""""
+所有的方法都是用小括号结尾；元组、数组、字典的取值都是用中括号
+元组、数组、字典的定义，分别是(),[],{}
+"""
 
+#字典.字典的特点：
+#1、字典中的值没有顺序   2、字典的结构必须是键值对的结构  key:value
+# a = {
+# "name":"李四",
+# 0:"很好",
+# "age":25
+# }
+# # print(a)
+# #取值
+# print(a["name"])
+# #新增
+# a["weight"] = "45kg"
+# print(a)
+# #修改
+# a["name"] = "zhangsan"
+# print(a)
+# #字典常用方法
+
+# print(a.get("name"))
+# print(a.pop("name"))
+# print(a)
+# a.update(age="234")   #这是没有返回值的，只是一个动作
+# print(a)
+
+#数组和字典的删除
+# del a["name"]
+# print(a)
+# del a[0]
+
+""""
+练习：获取用户输入的个人信息，并且存储到字典中，个人信息包括姓名name、年龄age、性别sex
+"""
+# name = input("请输入姓名：")
+# age = input("请输入年龄：")
+# sex = input("请输入性别：")
+# a = {"name":name,"age":age,"sex":sex}
+# print(a)
